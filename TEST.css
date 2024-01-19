@@ -1,0 +1,70 @@
+* {
+    margin:0;
+}
+
+a {
+    text-decoration:none;
+}
+
+footer {
+    display:flex;
+    flex-direction: column;
+    margin:30px 0 0 0;
+}
+
+.nieuwsbrief {
+    display:flex;
+    flex-direction:column;    
+    align-items:center;
+    background:#e8f5ff;
+    padding:20px 0 20px 0;
+    margin:40px 0 0 0;
+}
+
+.nieuwsbriefinputcontainer {
+    display:flex;
+    justify-content:center;
+    padding:20px 0 0 0;
+}
+
+.nieuwsbrief label {
+    font-size:15px;
+}
+
+.nieuwsbriefinput1 {
+    padding:15px 80px 15px 80px;
+    margin:0 5px 0 0;
+    border:#000 solid 1px;
+    border-radius:10px;
+}
+
+.nieuwsbriefinput2 {
+    padding:15px 40px 15px 40px;
+    margin:0 0 0 5px;
+    border:none;
+    border-radius:10px;
+    background:#5980f6;
+}
+
+#nieuwsbriefpopup {
+    padding:15px 0 0 0;
+}
+
+.infoline {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:row;
+    background:#f1efef;
+    padding:20px 0 20px 0;
+}
+
+.contact {
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+}   
+
+.contacttext {
+    padding:10px 10px 10px 10px;
+}
